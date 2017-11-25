@@ -1,0 +1,108 @@
+% !Mode:: "TeX:UTF-8"
+
+%%% 此部分包含: (1) 英文封面 (无需改动) ; (2) 郑重声明 (无需改动).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% -------------  英文封面 (无需改动)-------------   %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\renewcommand{\baselinestretch}{1.5}  %下文的行距
+\ \vspace{1.2cm}
+{\tnewroman
+\begin{center}{\zihao{-2} \the\Etitle \par}\end{center}
+\vspace{5cm}
+\begin{center}
+\zihao{-3}
+A Dissertation Submitted to\\
+the Graduate School of Henan University\\
+in Partial Fulfillment of the Requirements\\
+for the Degree of \\
+Master of Economics\\
+\vspace{4cm}
+%\vspace*{2cm}
+%\begin{center}
+  %\iflib % 向图书馆提交电子文档, 使用黑白校徽.
+  %\includegraphics[height=4cm]{whu.eps}       %%  黑白的. 很小, 只有 10k.
+  %\else
+    % \ifprint % 文档打印, 使用黑白校徽.
+  %\includegraphics[height=4cm]{whu.eps}       %%  黑白的.
+  %\else
+  %\includegraphics[height=4cm]{whulogo.eps} %%  彩色的.
+  %\fi
+ % \fi
+%\end{center}
+\renewcommand{\baselinestretch}{2}
+By\\
+\emph{\the\Eauthor}\\
+Supervisor:\the\Esupervisor\\
+
+%\zihao{-2}
+%\the\Schoolname\\
+%{\sc Henan University}
+
+%\vspace*{1.0cm}
+
+Date \the\Edate
+
+\end{center}
+}
+%%%%%%%--判断是否需要空白页-----------------------------
+  \iflib
+  \else
+  \newpage
+  \thispagestyle{empty}
+  \cleardoublepage
+  \fi
+%%%%%%%-------------------------------------------------
+%%%--- 加入``郑重声明'' --- %%%%%%%%%%%%%%%%%
+{\pagestyle{empty}
+\newpage
+\vspace*{18pt}
+\begin{center}{\ziju{0}\zihao{3}\heiti\em 关于学位论文独创声明和学术诚信承诺}\end{center}
+\par\vspace*{20pt}
+\renewcommand{\baselinestretch}{2}
+{\zihao{5} \kaishu %
+\begin{spacing}{1.5}
+本人向河南大学提出硕士学位申请。本人郑重声明：所呈交的学位论文是本人在导师的指导下独立完成的，对所研究的课题有新的见解。据我所知，除文中特别加以说明、标注和致谢的地方外，论文中不包括其他人已经发表或撰写过的研究成果，也不包括其他人为获得任何教育、科研机构的学位或证书而使用过的材料。与我一同工作的同事对本研究所做的任何贡献均已在论文中作了明确的说明并表示了谢意。
+
+在此本人郑重承诺：所呈交的学位论文不存在舞弊作伪行为，文责自负。
+\end{spacing}
+\vskip1cm
+
+\hspace*{3cm}学位申请人（学位论文作者）签名: \raisebox{-1ex}{\underline{\makebox[4cm][c]{}}}
+\vskip0.5cm
+\hspace*{8.5cm}2017\ 年\hspace{0.8cm}   月 \hspace{0.8cm} 日\hspace{0.8cm}\par}
+
+%%%--- 加入``授权书'' --- %%%%%%%%%%%%%%%%%
+\vskip2cm
+\begin{center}{\ziju{0}\zihao{3}\heiti\em 关于学位论文著作权使用授权书}\end{center}
+\par\vspace*{18pt}
+\renewcommand{\baselinestretch}{2}
+{\zihao{5} \kaishu %
+\begin{spacing}{1.5}
+本人经河南大学审核批准授予硕士学位。作为学位论文的作者，本人完全了解并同意河南大学有关保留、使用学位论文的要求，即河南大学有权向国家图书馆、科研信息机构、数据收集机构和本校图书馆等提供学位论文（纸质文本和电子文本）以供公众检索、查阅。本人授权河南大学出于宣扬、展览学校学术发展和进行学术交流等目的，可以采取影印、缩印、扫描和拷贝等复制手段保存、汇编学位论文（纸质文本和电子文本）。
+
+（涉及保密内容的学位论文在解密后适用本授权书）
+\end{spacing}
+\vskip1cm
+
+\hspace*{3cm}学位获得者（学位论文作者）签名: \raisebox{-1ex}{\underline{\makebox[4cm][c]{}}}
+\vskip0.5cm
+\hspace*{8.5cm}2017\ 年\hspace{0.8cm}   月 \hspace{0.8cm} 日\hspace{0.8cm}\par
+\vskip0.5cm
+\hspace*{4.85cm}学位论文指导教师签名: \raisebox{-1ex}{\underline{\makebox[4cm][c]{}}}
+\vskip0.5cm
+\hspace*{8.5cm}2017\ 年\hspace{0.8cm}   月 \hspace{0.8cm} 日\hspace{0.8cm}\par}
+%%%%%%%--判断是否需要空白页-----------------------------
+  \iflib
+  \else
+  \newpage
+  \cleardoublepage
+  \fi
+%%%%%%%-------------------------------------------------}
+\renewcommand{\baselinestretch}{1.6}
+\small\normalsize
+
+
+
+
